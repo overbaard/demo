@@ -12,4 +12,4 @@ fi
 
 shopt -s extglob
 rm -rf !(populate.*|README.md|.git)
-cp -rf "$OB_DIST/*" .
+cp -rf $OB_DIST/* .
