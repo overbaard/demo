@@ -11,5 +11,5 @@ fi
 
 
 shopt -s extglob
-rm -rf !(populate.*|README.md|.git)
+rm -rf !(populate.*|README.md|.git|Gemfile*|404.*)
 cp -rf $OB_DIST/* .
